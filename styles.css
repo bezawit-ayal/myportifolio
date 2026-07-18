@@ -588,3 +588,91 @@ body {
         font-size: 2rem;
     }
 }
+/* CV BUTTON */
+
+.cv-download{
+
+background:#c9a227;
+color:#0a1f44 !important;
+padding:10px 18px;
+border-radius:8px;
+font-weight:600;
+
+}
+
+
+
+/* MOBILE MENU */
+
+.hamburger{
+
+display:none;
+cursor:pointer;
+
+}
+
+
+.hamburger span{
+
+display:block;
+width:28px;
+height:3px;
+background:white;
+margin:5px;
+border-radius:5px;
+
+}
+
+
+
+@media(max-width:768px){
+
+
+.hamburger{
+
+display:block;
+
+}
+
+
+.nav-menu{
+
+
+position:absolute;
+top:70px;
+right:20px;
+
+background:#0a1f44;
+
+width:220px;
+
+display:none;
+
+flex-direction:column;
+
+padding:20px;
+
+border-radius:15px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.3);
+
+}
+
+
+
+.nav-menu.active{
+
+display:flex;
+
+}
+
+
+.nav-menu li{
+
+margin:15px 0;
+
+}
+
+
+
+}
