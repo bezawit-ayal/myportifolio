@@ -4,444 +4,257 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Your Name</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Portfolio - Bezawit Ayal</title>
 </head>
 
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-brand">Portfolio</div>
-           <ul class="nav-menu" id="navMenu">
 
-<li><a href="#home">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#contact">Contact</a></li>
+    <header>
+        <nav>
+            <h1>Bezawit Ayal</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="cv.pdf" download>Download CV</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-<li>
-<a href="cv.pdf" download class="cv-download">
-<i class="fas fa-download"></i>
-Download CV
-</a>
-</li>
+    <main>
 
-</ul>
+        <!-- Hero Section -->
+        <section id="home">
+            <article>
+                <h2>Hi, I'm <mark>Bezawit Ayal</mark></h2>
+                <p><strong>Full Stack Developer | Designer | Problem Solver</strong></p>
+                <p><em>I create beautiful and functional web experiences that help businesses grow.</em></p>
+                <menu>
+                    <li><a href="cv.pdf" download>View CV</a></li>
+                    <li><a href="#contact">Get in Touch</a></li>
+                </menu>
+            </article>
+        </section>
 
+        <hr>
 
-<div class="hamburger" id="hamburger">
-
-<span></span>
-<span></span>
-<span></span>
-
-</div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Hi, I'm <span class="highlight">Bezawit Ayal</span></h1>
-                <p class="subtitle">Full Stack Developer | Designer | Problem Solver</p>
-                <p class="description">I create beautiful and functional web experiences that help businesses grow.</p>
-                <div class="cta-buttons">
-                    <a href="resume.jpeg" class="btn btn-primary">View CV</a>
-                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
+        <!-- About Section -->
+        <section id="about">
             <h2>About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>I'm a passionate developer with experience in building modern web applications. I love creating
-                        solutions that combine beautiful design with solid functionality.</p>
-                    <p>With a background in computer science and years of hands-on experience, I've worked with various
-                        technologies and frameworks to deliver high-quality projects.</p>
-                    <p>When I'm not coding, you can find me learning new technologies, contributing to open-source
-                        projects, or sharing knowledge with the community.</p>
-                </div>
-                <div class="about-stats">
-                    <div class="stat">
-                        <h3>3+</h3>
-                        <p>Years Experience</p>
-                    </div>
-                    <div class="stat">
-                        <h3>6+</h3>
-                        <p>Projects Completed</p>
-                    </div>
-                    <div class="stat">
-                        <h3>2+</h3>
-                        <p>Happy Clients</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
+            <blockquote>
+                I'm a passionate developer with experience in building modern web applications.
+            </blockquote>
+
+            <p>I love creating solutions that combine beautiful design with solid functionality.</p>
+
+            <p>With a background in computer science and years of hands-on experience, I've worked with various
+                technologies and frameworks to deliver high-quality projects.</p>
+
+            <p>When I'm not coding, you can find me learning new technologies, contributing to open-source
+                projects, or sharing knowledge with the community.</p>
+
+            <hr>
+
+            <table border="1" cellpadding="10" cellspacing="0">
+                <caption><strong>My Achievements</strong></caption>
+                <thead>
+                    <tr>
+                        <th>3+</th>
+                        <th>6+</th>
+                        <th>2+</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Years Experience</td>
+                        <td>Projects Completed</td>
+                        <td>Happy Clients</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Projects Section -->
+        <section id="projects">
             <h2>Featured Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="image/bus.png" alt="Bus Reservation System"
-                            style="width: 100%; height: 100%; object-fit: cover;">
-                    </div>
-                    <h3>Bus Reservation System</h3>
-                    <p>A full-featured bus reservation system built with HTML , CSS , JavaScript , PHP and MySQL .</p>
-                    <div class="project-tags">
-                        <span class="tag">HTML</span>
-                        <span class="tag">CSS</span>
-                        <span class="tag">JavaScript</span>
-                        <span class="tag">PHP</span>
-                        <span class="tag">MySQL</span>
-                    </div>
-                    <a href="https://bezawit-ayal.github.io/bus-reservation-ethiopia/" class="project-link">View Project
-                        <i class="fas fa-arrow-right"></i></a>
-                </div>
 
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="image/online.png" alt="Online Voting System"
-                            style="width: 100%; height: 100%; object-fit: cover;">
-                    </div>
-                    <h3>Online Voting System</h3>
-                    <p> A modern online voting system with user authentication, real-time results display, and advanced
-                        filtering capabilities.</p>
-                    <div class="project-tags">
-                        <span class="tag">HTML</span>
-                        <span class="tag">CSS</span>
-                        <span class="tag">JavaScript</span>
-                        <span class="tag">PHP</span>
-                        <span class="tag">MySQL</span>
-                    </div>
-                    <a href="https://bezawit-ayal.github.io/online-voting-system/" class="project-link">View Project <i
-                            class="fas fa-arrow-right"></i></a>
-                </div>
+            <article>
+                <figure>
+                    <img src="image/ethiobus.png" alt="Bus Reservation System" width="300" height="200">
+                    <figcaption><strong>Bus Reservation System</strong></figcaption>
+                </figure>
+                <p>A full-featured bus reservation system built with HTML, CSS, JavaScript, PHP and MySQL.</p>
+                <p>Technologies used: HTML, CSS, JavaScript, PHP, MySQL</p>
+                <p><a href="https://bezawit-ayal.github.io/bus-reservation-ethiopia/">View Project </a></p>
+            </article>
 
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="image/image.png" alt="SafeRout" style="width: 100%; height: 100%; object-fit: cover;">
-                    </div>
-                    <h3>SafeRout</h3>
-                    <p>A safe routing application with real-time traffic updates and optimized pathfinding.</p>
-                    <div class="project-tags">
-                        <span class="tag">React</span>
-                        <span class="tag">node.js</span>
-                        <span class="tag">mongoDB</span>
-                    </div>
-                    <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
-                </div>
+            <br>
 
-                <div class="project-card">
-                    <div class="project-image" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
-                    </div>
-                    <h3>AI Chatbot</h3>
-                    <p>An intelligent chatbot powered by AI and machine learning, capable of understanding context and
-                        providing helpful responses.</p>
-                    <div class="project-tags">
-                        <span class="tag">Python</span>
-                        <span class="tag">TensorFlow</span>
-                        <span class="tag">NLP</span>
-                    </div>
-                    <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
-                </div>
+            <article>
+                <figure>
+                    <img src="image/onlinevoting.png" alt="Online Voting System" width="300" height="200">
+                    <figcaption><strong>Online Voting System</strong></figcaption>
+                </figure>
+                <p>A modern online voting system with user authentication, real-time results display, and advanced
+                    filtering capabilities.</p>
+                <p>Technologies used: HTML, CSS, JavaScript, PHP, MySQL</p>
 
-                <div class="project-card">
-                    <div class="project-image" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);">
-                    </div>
-                    <h3>Weather App</h3>
-                    <p>A beautiful weather application with location-based forecasts, interactive maps, and detailed
-                        weather analytics.</p>
-                    <div class="project-tags">
-                        <span class="tag">React</span>
-                        <span class="tag">API</span>
-                        <span class="tag">Maps</span>
-                    </div>
-                    <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
+                <p><a href="https://bezawit-ayal.github.io/online-voting-system/">View Project</a></p>
+            </article>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2>Skills & Expertise</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
+            <br>
+            <article>
+                <figure>
+                    <img src="image/portifolio.png" alt="Portfolio Website" width="300" height="200">
+                    <figcaption><strong>Portfolio Website</strong></figcaption>
+                </figure>
+                <p>A personal portfolio website to showcase my skills, projects, and experience as a web developer.</p>
+                <p>Technologies used: HTML CSS JavaScript</p>
+                <p><a href="https://bezawit-ayal.github.io/portfolio/">View Project</a></p>
+        </section>
+
+        <hr>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills &amp; Expertise</h2>
+
+            <details open>
+                <summary>
                     <h3>Frontend</h3>
-                    <div class="skill-list">
-                        <div class="skill-item">
-                            <span>HTML/CSS</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 95%;"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span>JavaScript</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%;"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span>React</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%;"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </summary>
+                <dl>
+                    <dt><strong>HTML/CSS</strong></dt>
+                    <dd><progress value="95" max="100"></progress> 95%</dd>
 
-                <div class="skill-category">
+                    <dt><strong>JavaScript</strong></dt>
+                    <dd><progress value="90" max="100"></progress> 90%</dd>
+
+                    <dt><strong>React</strong></dt>
+                    <dd><progress value="85" max="100"></progress> 85%</dd>
+                </dl>
+            </details>
+
+            <br>
+
+            <details open>
+                <summary>
                     <h3>Backend</h3>
-                    <div class="skill-list">
-                        <div class="skill-item">
-                            <span>Node.js</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 88%;"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span>PHP</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 82%;"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span>SQL/Databases</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%;"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span>APIs </span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%;"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </summary>
+                <dl>
+                    <dt><strong>Node.js</strong></dt>
+                    <dd><progress value="88" max="100"></progress> 88%</dd>
 
-                <div class="skill-category">
-                    <h3>Tools & Technologies</h3>
-                    <div class="skill-list">
-                        <div class="skill-item">
-                            <span>Git & GitHub</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 92%;"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span>Docker</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 75%;"></div>
-                            </div>
-                        </div>
+                    <dt><strong>PHP</strong></dt>
+                    <dd><progress value="82" max="100"></progress> 82%</dd>
 
-                        <div class="skill-item">
-                            <span>UI/UX Design</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 80%;"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                    <dt><strong>SQL/Databases</strong></dt>
+                    <dd><progress value="85" max="100"></progress> 85%</dd>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
+                    <dt><strong>APIs</strong></dt>
+                    <dd><progress value="90" max="100"></progress> 90%</dd>
+                </dl>
+            </details>
 
+            <br>
+
+            <details open>
+                <summary>
+                    <h3>Tools &amp; Technologies</h3>
+                </summary>
+                <dl>
+                    <dt><strong>Git &amp; GitHub</strong></dt>
+                    <dd><progress value="92" max="100"></progress> 92%</dd>
+
+                    <dt><strong>Docker</strong></dt>
+                    <dd><progress value="75" max="100"></progress> 75%</dd>
+
+                    <dt><strong>UI/UX Design</strong></dt>
+                    <dd><progress value="80" max="100"></progress> 80%</dd>
+                </dl>
+            </details>
+        </section>
+
+        <hr>
+
+        <!-- Contact Section -->
+        <section id="contact">
             <h2>Let's Work Together</h2>
-            <p class="contact-intro">
-                I'm always interested in hearing about new projects and opportunities.
-            </p>
+            <p><em>I'm always interested in hearing about new projects and opportunities.</em></p>
 
-            <div class="contact-content">
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Contact Form</legend>
 
-                <!-- Contact Form -->
-                <form id="contactForm" class="contact-form">
+                    <p>
+                        <label for="name">Your Name:</label><br>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required size="50">
+                    </p>
 
-                    <div class="form-group">
-                        <input type="text" id="name" placeholder="Your Name" required>
-                    </div>
+                    <p>
+                        <label for="email">Your Email:</label><br>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required size="50">
+                    </p>
 
-                    <div class="form-group">
-                        <input type="email" id="email" placeholder="Your Email" required>
-                    </div>
+                    <p>
+                        <label for="subject">Subject:</label><br>
+                        <input type="text" id="subject" name="subject" placeholder="Enter subject" size="50">
+                    </p>
 
-                    <div class="form-group">
-                        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
-                    </div>
+                    <p>
+                        <label for="message">Your Message:</label><br>
+                        <textarea id="message" name="message" rows="8" cols="50" placeholder="Write your message..."
+                            required></textarea>
+                    </p>
 
-                    <button type="submit" class="btn btn-primary">
-                        Send Message
-                    </button>
+                    <p>
+                        <button type="submit">Send Message</button>
+                        <button type="reset">Clear Form</button>
+                    </p>
+                </fieldset>
+            </form>
 
-                </form>
+            <hr>
 
-                <!-- Contact Info -->
-                <div class="contact-info">
+            <address>
+                <h3>Contact Information</h3>
+                <p><strong>Email:</strong> <a href="mailto:bezaayu8@gmail.com">bezaayu8@gmail.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+251947825827">+251 947 825 827</a></p>
+                <p><strong>Location:</strong> Bahir Dar, Ethiopia</p>
+            </address>
+        </section>
 
-                    <div class="info-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h4>Email</h4>
-                            <p>
-                                <a href="mailto:bezaayu8@gmail.com">
-                                    bezaayu8@gmail.com
-                                </a>
-                            </p>
-                        </div>
-                    </div>
+        <hr>
 
-                    <div class="info-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h4>Phone</h4>
-                            <p>
-                                <a href="tel:+251947825827">
-                                    +251 947 825 827
-                                </a>
-                            </p>
-                        </div>
-                    </div>
+        <!-- Social Links Section -->
+        <section>
+            <h2>Connect With Me</h2>
+            <ol>
+                <li><a href="https://linkedin.com/in/bezawit-ayal" title="LinkedIn">LinkedIn Profile</a></li>
+                <li><a href="https://github.com/bezawit-ayal" title="GitHub">GitHub Profile</a></li>
+                <li><a href="https://twitter.com/bezawit_ayal" title="Twitter">Twitter Profile</a></li>
+                <li><a href="https://t.me/@bezicho_21" title="Telegram">Telegram Channel</a></li>
+            </ol>
+        </section>
 
-                    <div class="info-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h4>Location</h4>
-                            <p>Bahir Dar, Ethiopia</p>
-                        </div>
-                    </div>
+    </main>
 
-                    <!-- Social Links -->
-                    <div class="social-links">
+    <hr>
 
-                        <a href="https://linkedin.com/in/bezawit-ayal" title="LinkedIn">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
+    <!-- Footer -->
+    <footer>
+        <p><small>&copy; <time datetime="2026">2026</time> Bezawit Ayal. All Rights Reserved.</small></p>
+        <p><small>This website was created as a portfolio showcase.</small></p>
+        <p><a href="#home">Back to Top</a></p>
+    </footer>
 
-                        <a href="https://github.com/bezawit-ayal" title="GitHub">
-                            <i class="fab fa-github"></i>
-                        </a>
-
-                        <a href="https://twitter.com/bezawit_ayal" title="Twitter">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-
-                        <a href="https://t.me/@bezicho_21" title="Telegram">
-                            <i class="fab fa-telegram"></i>
-                        </a>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Telegram Bot Script -->
-    <script>
-        document.getElementById("contactForm").addEventListener("submit", async function (e) {
-
-            e.preventDefault();
-
-            const name = document.getElementById("name").value;
-            const email = document.getElementById("email").value;
-            const message = document.getElementById("message").value;
-
-            const botToken = "8774726023:AAG3TJ6j5ZZpZS7sP9LZfgDowBSn5nUUKa0";
-
-            // REPLACE WITH YOUR REAL CHAT ID
-            const chatId = "7939704679";
-
-            const text = `
- New Portfolio Message
-
- Name: ${name}
- Email: ${email}
- Message: ${message}
-`;
-
-            try {
-
-                const response = await fetch(
-                    `https://api.telegram.org/bot${botToken}/sendMessage`,
-                    {
-                        method: "POST",
-                        headers: {
-                            "Content-Type": "application/json"
-                        },
-                        body: JSON.stringify({
-                            chat_id: chatId,
-                            text: text
-                        })
-                    }
-                );
-
-                if (response.ok) {
-                    alert("Message Sent Successfully!");
-                    document.getElementById("contactForm").reset();
-                } else {
-                    alert("Failed To Send Message!");
-                }
-
-            } catch (error) {
-                console.log(error);
-                alert("Error Sending Message!");
-            }
-
-        });
-    </script>
-
-    <script>
-
-const hamburger =
-document.getElementById("hamburger");
-
-
-const navMenu =
-document.getElementById("navMenu");
-
-
-
-hamburger.addEventListener("click",()=>{
-
-navMenu.classList.toggle("active");
-
-});
-
-
-
-// close menu after clicking
-
-document.querySelectorAll(".nav-menu a")
-.forEach(link=>{
-
-link.addEventListener("click",()=>{
-
-navMenu.classList.remove("active");
-
-});
-
-});
-
-
-</script>
 </body>
 
 </html>
